@@ -1,8 +1,8 @@
 # Security Assessment Report for [web application]
 
 ## Executive Summary
-- **Date**: [14/feb]
-- **Tester**: [Preetham]
+- **Date**: [14/feb/2025]
+- **Tester**: [Preetham.K]
 - **Tools Used**: OWASP ZAP, Nmap
 
 ## Findings
