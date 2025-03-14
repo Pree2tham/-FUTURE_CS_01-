@@ -1,0 +1,39 @@
+touch .gitignore
+# General
+*.log
+*.tmp
+*.swp
+*.env
+.DS_Store
+
+# IDE/Editor
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+
+# Java
+*.class
+*.war
+*.jar
+target/
+
+# Node.js
+node_modules/
+npm-debug.log*
+
+# Scan outputs
+outputs/*.xml
+outputs/*.json
+
+# Secrets
+*.key
+*.pem
+credentials.* 
+
+git add .
+git commit -m "Initial commit: Repository structure and README"
+git push origin main
