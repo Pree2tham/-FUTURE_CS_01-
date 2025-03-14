@@ -1,27 +1,32 @@
 touch .gitignore
-# General
+# Logs and temporary files
 *.log
 *.tmp
 *.swp
-*.env
-.DS_Store
+*.pid
+*.seed
+*.pid.lock
+*.state
 
-# IDE/Editor
+# IDE/Editor specific
 .vscode/
 .idea/
+*.sublime-workspace
+*.sublime-project
 
-# Python
+# Python specific
 __pycache__/
 *.pyc
 venv/
+*.pyo
 
-# Java
+# Java specific
 *.class
 *.war
 *.jar
 target/
 
-# Node.js
+# Node.js specific
 node_modules/
 npm-debug.log*
 
@@ -32,8 +37,15 @@ outputs/*.json
 # Secrets
 *.key
 *.pem
-credentials.* 
+*.p12
+*.crt
+*.cer
+*.der
+credentials.*
+.env
 
-git add .
-git commit -m "Initial commit: Repository structure and README"
-git push origin main
+# Shell specific
+*.sh~
+*.sh.swp
+*.sh.pid
+.TM*
