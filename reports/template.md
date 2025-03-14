@@ -1,4 +1,4 @@
-# Security Assessment Report for [Application Name]
+# Security Assessment Report for [web application]
 
 ## Executive Summary
 - **Date**: [14/feb]
